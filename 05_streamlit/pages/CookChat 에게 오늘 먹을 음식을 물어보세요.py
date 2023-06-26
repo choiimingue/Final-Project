@@ -297,7 +297,7 @@ def user_interact(query, model, msg_prompt_init):
 
 
 
-st.set_page_config(page_title="Chat!강록", page_icon=":cook:", layout="wide")
+st.set_page_config(page_title="CookChat!", page_icon=":cook:", layout="wide")
 
 if __name__ == "__main__":
     # 메인 구성하기
