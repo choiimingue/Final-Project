@@ -8,6 +8,7 @@ import random
 import time
 import pickle
 import os
+
 # 사진출력 패키지 import
 import io
 from PIL import Image
@@ -21,17 +22,17 @@ file_path = 'compact_kosroberta_recipes.pkl'
 with open(file_path, 'rb') as f:
     data = pickle.load(f)
 
-st.set_page_config(page_title="Chat!강록", page_icon=":cook:", layout="wide")
+st.set_page_config(page_title='Chat!강록', page_icon=':cook:', layout='wide')
 
 # 메인 구성하기
 st.markdown("<span style='color:lightgray; font-style:italic; font-size:12px;'>by. TEAM 조이름은 최강록으로 하겠습니다. 그런데 이제 바질을 곁들인 </span>", 
             unsafe_allow_html=True)
     # 배너 이미지 넣기
 curr_dir = os.getcwd()
-img_path = os.path.join(curr_dir, "banner.png")
+img_path = os.path.join(curr_dir, 'banner.png')
 image1 = Image.open(img_path)
 st.image(image1)
-img_path = os.path.join(curr_dir, "notice_02.png")
+img_path = os.path.join(curr_dir, 'notice_02.png')
 image2 = Image.open(img_path)
 st.image(image2)
 
@@ -77,8 +78,8 @@ with st.expander('###### Q1. 알레르기가 있으신가요?'):
             selected_allergies.append(allergy)
 
     # 기타 알레르기 입력 받기
-    st.write("\n")
-    st.write("\n")
+    st.write('\n')
+    st.write('\n')
     st.markdown('<span style="color: blue;"> Q1-2. 직접 입력하기  ex) 복숭아, 수박 등</span>', unsafe_allow_html=True)
     other_input = st.text_input(' ', key='other_input')
 
@@ -89,7 +90,7 @@ with st.expander('###### Q1. 알레르기가 있으신가요?'):
     if len(selected_allergies) == 0 and not other_input:
         st.write('알레르기가 없습니다.')
     else:
-        allergy_list = ", ".join(selected_allergies)
+        allergy_list = ', '.join(selected_allergies)
         if other_input:
             allergy_list += ", " + other_input
         st.write(allergy_list)
@@ -114,10 +115,10 @@ with st.expander('###### Q1. 알레르기가 있으신가요?'):
     else:
         df_al = data
 
-with st.expander(" 알레르기 정보 확인하기"):
-        st.markdown("<p style='color:red'> (일부 항목만 해당할 경우, 해당 항목을 직접 입력해주세요.)</p>", unsafe_allow_html=True)
+with st.expander('알레르기 정보 확인하기'):
+        st.markdown('<p style="color:red"> (일부 항목만 해당할 경우, 해당 항목을 직접 입력해주세요.)</p>', unsafe_allow_html=True)
         data = [
-        ["체크 항목", "포함된 항목"],
+        ['체크 항목', '포함된 항목'],
         ['우유', '우유, 치즈, 버터, 크림, 요거트, 아이스크림'],
         ['난류', '계란, 달걀, 메렌지, 마요네즈'],
         ['땅콩', '땅콩, 피넛버터, 땅콩크림, 땅콩깨'],
@@ -179,7 +180,7 @@ with st.expander('###### Q3. 원하는 요리 난이도가 있으신가요?'):
 
 # 희망 요리시간 입력
 st.write('\n')
-with st.expander("###### Q4. 희망하는 요리시간이 있으신가요?"):
+with st.expander('###### Q4. 희망하는 요리시간이 있으신가요?'):
     time = st.text_input('희망하는 최대 소요시간을 입력해주세요. ex) 120 (분 단위 숫자로 입력)')
     last_df = filtered_df.copy()
 

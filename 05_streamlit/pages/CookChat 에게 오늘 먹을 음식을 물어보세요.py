@@ -82,7 +82,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 cur_os = sys.platform
 
 # 이전 대화 기록을 가져오기 위한 키
-CHAT_HISTORY_KEY = "chat_history"
+CHAT_HISTORY_KEY = 'chat_history'
 
 # 파생 변수
 # - feature1 = '재료'
@@ -215,7 +215,7 @@ def user_interact(query, model, msg_prompt_init):
         r_set_d = json.loads(r_set_d.to_json(orient="records"))
         for r in r_set_d:
             for _, v in r.items():
-                recom_msg += f"{v} \n"
+                recom_msg += f'{v} \n'
                 # '사진' 컬럼에서 이미지 불러오기
                 img_url = r['사진']
                 response = requests.get(img_url)
