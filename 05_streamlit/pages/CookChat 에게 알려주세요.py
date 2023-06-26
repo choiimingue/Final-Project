@@ -24,7 +24,7 @@ with open(file_path, 'rb') as f:
 st.set_page_config(page_title="Chat!강록", page_icon=":cook:", layout="wide")
 
 # 메인 구성하기
-st.markdown("<span style='color:lightgray; font-style:italic; font-size:12px;'>FINAL PROJECT(3조) '조이름은 최강록으로 하겠습니다. 그런데 이제 바질을 곁들인' </span>", 
+st.markdown("<span style='color:lightgray; font-style:italic; font-size:12px;'>by. TEAM 조이름은 최강록으로 하겠습니다. 그런데 이제 바질을 곁들인 </span>", 
             unsafe_allow_html=True)
     # 배너 이미지 넣기
 curr_dir = os.getcwd()
@@ -35,7 +35,7 @@ img_path = os.path.join(curr_dir, "notice_02.png")
 image2 = Image.open(img_path)
 st.image(image2)
 
-st.markdown(':loudspeaker: <span style="font-weight: bold; font-size: 14px; font-style: italic;"> 현재 페이지는 사전정보 입력 페이지입니다.</span>', unsafe_allow_html=True)
+st.markdown(':loudspeaker: <span style="font-weight: bold; font-size: 14px;"> 현재 페이지는 사전정보 입력 페이지입니다. </span>', unsafe_allow_html=True)
 # st.markdown("<center><h6>🍳 레시피 추천 챗봇 </h6>", unsafe_allow_html=True)
 # st.markdown('<center><h3> ["Chat!"강록] </h3>', unsafe_allow_html=True)
 
@@ -198,4 +198,4 @@ if st.button(label='저장'):
         pickle.dump(last_df, f)
     st.write('저장되었습니다.')
     
-st.markdown('<span style="color: red; font-weight: bold; font-size: 12px; font-style: italic;"> "저장" 버튼을 눌러야 정보가 저장됩니다.</span>', unsafe_allow_html=True)
+st.markdown('<span style="color: red; font-weight: bold; font-size: 12px;"> ↑ [저장] 버튼을 눌러야 정보가 저장됩니다.</span>', unsafe_allow_html=True)
