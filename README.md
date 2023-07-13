@@ -7,7 +7,7 @@
 로컬에서 구동하기 위해서는 아래와 같은 추가적인 과정이 요구됩니다.
 1. Python의 `dotenv` 라이브러리 install
 2. `.env` 파일을 `05_streamlit` 디렉토리에 생성
-3. OpenAI에서 발급받은 API Key를 `OPENAI_API_KEY = 발급받은 Key`와 같이 입력하고 저장
+3. OpenAI에서 발급받은 API Key를 `OPENAI_API_KEY = 발급받은 Key` 와 같이 입력하고 저장
 
 보다 자세한 과정은 [link](https://blog.gilbok.com/how-to-use-dot-env-in-python/)를 참고하세요.
 
