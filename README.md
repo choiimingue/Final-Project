@@ -11,11 +11,9 @@
 
 보다 자세한 과정은 [link](https://blog.gilbok.com/how-to-use-dot-env-in-python/)를 참고하세요.
 
-# Cook Chat! : 남은 식재료와 원하는 테마를 입력하면 레시피를 추천해주는 챗봇
+# Cook Chat! : 남은 식재료와 원하는 테마를 입력하면 레시피를 추천해주는 챗봇
 ![concept 1](https://github.com/choiimingue/Final-Project/assets/122662827/ae27e36c-1a30-4b7e-839c-2a1dc6574358)
-- With few lines of code, you can define, customize, visualize, and evaluate your own forecasting models.
-- It is designed for iterative human-in-the-loop model building. That means that you can build a first model quickly, interpret the results, improve, repeat. Due to the focus on interpretability and customization-ability, NeuralProphet may not be the most accurate model out-of-the-box; so, don't hesitate to adjust and iterate until you like your results.
-- NeuralProphet is best suited for time series data that is of higher-frequency (sub-daily) and longer duration (at least two full periods/years).
+- 
 
 
 ## Documentation
