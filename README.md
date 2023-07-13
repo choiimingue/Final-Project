@@ -2,7 +2,13 @@
 
 ![banner_01](https://github.com/choiimingue/Final-Project/assets/122662827/31aad895-5b67-4a86-b2d6-e723f286ae47)
 
-본 프로젝트는 개인 OpenAI API Key를 활용하여 제작되었습니다. 과금 문제 및 개인 정보 보안 문제로 인해 최종 결과물의 시연 영상을 함께 첨부해 놓았음을 미리 밝힙니다. 로컬에서 구동하기 위해서는 Python의 `dotenv` 라이브러리를 통해 `.env` 파일을 `05_streamlit` 디렉토리에 생성하고, 발급받은 API Key를 `OPENAI_API_KEY = 발급받은 Key`와 같이 입력하고 저장하는 과정이 필요합니다.
+본 프로젝트는 개인 OpenAI API Key를 활용하여 제작되었습니다. 
+과금 문제 및 개인 정보 보안 문제로 인해 최종 결과물의 시연 영상을 함께 첨부해 놓았음을 미리 밝힙니다. 
+로컬에서 구동하기 위해서는 아래와 같은 추가적인 과정이 요구됩니다.
+1. Python의 `dotenv` 라이브러리 install
+2. `.env` 파일을 `05_streamlit` 디렉토리에 생성
+3. OpenAI에서 발급받은 API Key를 `OPENAI_API_KEY = 발급받은 Key`와 같이 입력하고 저장
+보다 자세한 과정은 다음 [link](https://blog.gilbok.com/how-to-use-dot-env-in-python/)를 참고하세요.
 
 # NeuralProphet: human-centered forecasting
 NeuralProphet is an easy to learn framework for interpretable time series forecasting.
