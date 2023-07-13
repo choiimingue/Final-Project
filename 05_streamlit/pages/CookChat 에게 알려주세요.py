@@ -21,7 +21,7 @@ file_path = 'compact_kosroberta_recipes.pkl'
 with open(file_path, 'rb') as f:
     data = pickle.load(f)
 
-st.set_page_config(page_title="Chat!강록", page_icon=":cook:", layout="wide")
+st.set_page_config(page_title="Cook Chat!", page_icon=":cook:", layout="wide")
 
 # 메인 구성하기
 st.markdown("<span style='color:lightgray; font-style:italic; font-size:12px;'>by. TEAM 조이름은 최강록으로 하겠습니다. 그런데 이제 바질을 곁들인 </span>", 
