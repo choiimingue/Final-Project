@@ -11,6 +11,8 @@
 
 보다 자세한 과정은 [link](https://blog.gilbok.com/how-to-use-dot-env-in-python/)를 참고하세요.
 
+단, 본 프로젝트 파일을 구동함으로써 발생하는 API Key 사용 과금 비용은 작성자가 부담하지 않으며 활용하는 주체들이 부담해야함을 알려드립니다.
+
 # Cook Chat! : 남은 식재료와 원하는 테마를 입력하면 레시피를 추천해주는 챗봇
 ![concept 1](https://github.com/choiimingue/Final-Project/assets/122662827/ae27e36c-1a30-4b7e-839c-2a1dc6574358)
 
@@ -29,8 +31,8 @@
 - 공급자는 부족한 재료를 구매할 수 있도록 노출된 링크를 통해 유입되는 사용자들을 확보함으로써 고객 타겟팅 노출 광고와 유사한 효과를 볼 수 있을 것으로 기대합니다.
 - 챗봇 UI를 통한 추천시스템으로 콜드 스타트 상황에서도 다소 한정된 범위 내에서 이긴 하지만 유연하고 즉각적인 추천이 가능하며 유저와의 상호작용에서 얻은 데이터를 지속적으로 학습시킴으로써 성능을 더 고도화시킬 수도 있을 것입니다.
 
-## Documentation
-The [documentation page](https://neuralprophet.com) may not be entirely up to date. Docstrings should be reliable, please refer to those when in doubt. We are working on an improved documentation. We appreciate any help to improve and update the docs.
+## 활용 기술
+![overview](https://github.com/choiimingue/Final-Project/assets/122662827/3da147fb-29b7-43b1-bcf8-dfe42ca2aed6)
 
 For a visual introduction to NeuralProphet, [view this presentation](notes/NeuralProphet_Introduction.pdf).
 
