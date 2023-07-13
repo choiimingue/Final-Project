@@ -1,9 +1,3 @@
-# 사진 옆 재료버튼 -> 링크연결 (챗봇형식0)
-# 민규님 파일 연결
-# 메세지 프롬프트 변경(강섭님)
-# user_interact 함수 변경(강섭님)
-
-
 # 데이터 분석
 import pandas as pd
 import numpy as np
