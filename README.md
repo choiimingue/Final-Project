@@ -13,8 +13,10 @@
 
 # Cook Chat! : 남은 식재료와 원하는 테마를 입력하면 레시피를 추천해주는 챗봇
 ![concept 1](https://github.com/choiimingue/Final-Project/assets/122662827/ae27e36c-1a30-4b7e-839c-2a1dc6574358)
-- 
-
+***구매자에게는 필요한 소비를 판매자에게는 고객 타켓팅을***
+- 사용자는 남는 재료 처리, 요리법 서치 등 생활의 번거로움을 챗봇과의 간결하고 유연한 인터랙션으로 해소할 수 있습니다.
+- 공급자는 부족한 재료를 구매할 수 있도록 노출된 링크를 통해 유입되는 사용자들을 확보함으로써 고객 타겟팅 노출 광고와 유사한 효과를 볼 수 있을 것으로 기대합니다.
+- 챗봇 UI를 통한 추천시스템으로 콜드 스타트 상황에서도 다소 한정된 범위 내에서 이긴 하지만 유연하고 즉각적인 추천이 가능하며 유저와의 상호작용에서 얻은 데이터를 지속적으로 학습시킴으로써 성능을 더 고도화시킬 수도 있을 것입니다.
 
 ## Documentation
 The [documentation page](https://neuralprophet.com) may not be entirely up to date. Docstrings should be reliable, please refer to those when in doubt. We are working on an improved documentation. We appreciate any help to improve and update the docs.
